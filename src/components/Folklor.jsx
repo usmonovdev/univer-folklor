@@ -24,7 +24,7 @@ const Folklor = () => {
           </h1>
           <div className="w-full flex lg:flex-row flex-col lg:h-[370px] h-fit">
             <div className="lg:w-[50%] w-full h-full">
-              <img src={photo} className="object-cover w-full h-full" />
+              <img src={photo} alt="photo" className="object-cover w-full h-full" />
             </div>
             <div className="lg:w-[50%] w-full h-full p-8 bg-blue text-white flex items-center justify-center">
               <h1>{t("folklore.info")}</h1>

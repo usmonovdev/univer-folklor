@@ -15,7 +15,7 @@ const Festivals = () => {
             {t("festivals.title")}
           </h1>
           <div className="flex items-center justify-center">
-            <img src={thumbilnail} />
+            <img src={thumbilnail} alt="thumbilnail"/>
             <div
               className="absolute sm:w-[70px] w-[50px] sm:h-[70px] h-[50px] bg-blue rounded-full cursor-pointer flex items-center justify-center"
               onClick={() => setOpen(!open)}

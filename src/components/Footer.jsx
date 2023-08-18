@@ -31,7 +31,7 @@ const Footer = () => {
           <li>
             <ul className="flex flex-col gap-2">
               <li className="text-[20px]">
-                <a href="#">{t("footer.about.title")}</a>
+                <a href="/">{t("footer.about.title")}</a>
               </li>
               <li>
                 <a href="#">{t("footer.about.section")}</a>
