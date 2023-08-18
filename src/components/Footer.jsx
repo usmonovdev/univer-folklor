@@ -34,20 +34,20 @@ const Footer = () => {
                 <a href="/">{t("footer.about.title")}</a>
               </li>
               <li>
-                <a href="#">{t("footer.about.section")}</a>
+                <a href="/">{t("footer.about.section")}</a>
               </li>
               <li>
-                <a href="#">{t("footer.about.facultet_about")}</a>
+                <a href="/">{t("footer.about.facultet_about")}</a>
               </li>
             </ul>
           </li>
           <li>
             <ul className="flex flex-col gap-2">
               <li className="text-[20px]">
-                <a href="#">{t("footer.council.title")}</a>
+                <a href="/">{t("footer.council.title")}</a>
               </li>
               <li>
-                <a href="#">{t("footer.council.festivals")}</a>
+                <a href="/">{t("footer.council.festivals")}</a>
               </li>
             </ul>
           </li>
@@ -73,10 +73,10 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex flex-row gap-3">
-            <a href="#">
+            <a href="/">
               <img src={facebook} alt="facebook" />
             </a>
-            <a href="#">
+            <a href="/">
               <img src={twitter} alt="twitter" />
             </a>
           </div>
