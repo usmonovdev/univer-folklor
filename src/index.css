@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .center-mode {
+    @apply flex items-center justify-center;
+  }
+
+  .custom-container {
+    @apply max-w-[1200px] mx-auto px-4;
+  }
+}
+
+.hero {
+  background-image: url('./images/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+.facultets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .facultets {
+    grid-template-columns: 1fr;
+  }
+}

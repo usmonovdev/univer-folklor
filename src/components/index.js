@@ -1,0 +1,7 @@
+export { default as Navbar } from "./Navbar/Navbar"
+export { default as Hero } from "./Hero/Hero"
+export { default as Board } from "./Board"
+export { default as Folklor } from "./Folklor"
+export { default as Facultets } from "./Facultets"
+export { default as Festivals } from "./Festivals"
+export { default as Footer } from "./Footer"
