@@ -15,7 +15,7 @@ const VideoModal = ({ open, setOpen }) => {
             <LiaTimesSolid className="text-white text-2xl cursor-pointer mb-3" onClick={() => setOpen(!open)}/>
           </div>
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=1O0yazhqaxs"
+            url="https://www.youtube.com/watch?v=jme5LrdWTpk"
             playing={open}
           />
         </div>
