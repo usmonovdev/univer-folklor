@@ -53,7 +53,7 @@ const Navbar = () => {
           </ul>
           <div className="flex flex-row items-center gap-4">
             <ChangeLang />
-            <a href="tel:+998712333650">
+            <a href="tel:+998997987080">
               <svg
                 width="23"
                 height="22"

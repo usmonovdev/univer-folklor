@@ -36,11 +36,11 @@
   }
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none !important;
-}
+} */
 
-.facultets {
+/* .facultets {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -49,4 +49,4 @@
   .facultets {
     grid-template-columns: 1fr;
   }
-}
+} */

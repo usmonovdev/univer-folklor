@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import photo from "./../images/info.png"
-import user from "./../images/folklor.jpg"
+import { facultetsData } from "../data/facultetsData";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css/pagination";
 
 const Facultets = () => {
   const { t } = useTranslation();
@@ -11,23 +13,34 @@ const Facultets = () => {
         <h1 className="font-semibold sm:text-[32px] text-[20px] text-center text-[#000339]">
           {t("facultets.title")}
         </h1>
-        <div className="facultets">
-          <div className="p-6 bg-blue text-white">
-            <h1>{t('facultets.left')}</h1>
-            <div className="flex flex-row gap-2 items-center mt-2">
-              <img src={user} alt="user" className="w-[60px] rounded-full" />
-              <div>
-                <p>{t('facultets.author.name')}</p>
-                <p>{t('facultets.author.position')}</p>
-              </div>
-            </div>
-          </div>
-          <div className="h-full">
-            <img src={photo} alt="user" className="object-cover h-full" />
-          </div>
-          <div className="p-6 bg-blue text-white">
-            <h1>{t('facultets.right')}</h1>
-          </div>
+        <div className="">
+          <Swiper
+            slidesPerView="1"
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+          >
+            {facultetsData.map((data) => {
+              return (
+                <SwiperSlide key={data.id}>
+                  <div className="mb-[70px]">
+                    <img
+                      src={data.photo}
+                      className="rounded-lg rounded-b-none"
+                    />
+                    <div className="min-h-[130px] bg-gray-100 rounded-lg rounded-t-none">
+                      <h1 className="font-semibold sm:text-[32px] text-[20px] text-[#000339] px-4">
+                        {t(data.title)}
+                      </h1>
+                      <p className="p-4">{t(data.desc)}</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
         </div>
       </div>
     </div>

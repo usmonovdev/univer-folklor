@@ -55,7 +55,7 @@ const Footer = () => {
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-row gap-3 items-center">
             <ChangeLang />
-            <a href="tel:+998712333650">
+            <a href="tel:+998997987080">
               <svg
                 width="23"
                 height="22"
@@ -70,14 +70,6 @@ const Footer = () => {
                   fill="white"
                 />
               </svg>
-            </a>
-          </div>
-          <div className="flex flex-row gap-3">
-            <a href="/">
-              <img src={facebook} alt="facebook" />
-            </a>
-            <a href="/">
-              <img src={twitter} alt="twitter" />
             </a>
           </div>
           <div className="w-[70px]">
