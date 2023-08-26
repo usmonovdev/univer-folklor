@@ -12,7 +12,7 @@
   "life": "Institut hayotidan lavhalar",
   "folklore": {
     "title": "Folklor bo'limi",
-    "info": "Bugungi kunda o‘zbek xalq og‘zaki badiiy ijodini to‘plash, nashr etish va tadqiq etish borasida ulkan ishlarni amalga oshirib kelayotgan O‘zR FA Alisher Navoiy nomidagi Til va adabiyot instituti Folklor bo‘limining tashkiliy negizlari o‘zbek folklorshunosligining asoschisi H.T.Zarifov tashabbusi va bevosita ishtiroki bilan 1928-yilda tashkil etilgan O‘zbekiston Respublikasi Maorif xalq komissarligi ilmiy sho‘rosining O‘zbeklarni o‘rganish komiteti huzuridagi Etnografiya, folklor va arxeologiya bo‘yicha ilmiy-tekshirish kabinetidan boshlanadi. 1929-yilning dekabrida H.T.Zarifov mudir bo‘lgan bu kabinet yangidan tashkil etilgan O‘zbekiston davlat ilmiy-tekshirish instituti ixtiyoriga mustaqil (alohida) tuzilma sifatida beriladi (1929-1931).",
+    "info": "Bugungi kunda o‘zbek xalq og‘zaki badiiy ijodini to‘plash, nashr etish va tadqiq etish borasida ulkan ishlarni amalga oshirib kelayotgan O'zR FA O'zbek tili, adabiyoti va folklori instituti Folklor bo‘limining tashkiliy negizlari o‘zbek folklorshunosligining asoschisi H.T.Zarifov tashabbusi va bevosita ishtiroki bilan 1928-yilda tashkil etilgan O‘zbekiston Respublikasi Maorif xalq komissarligi ilmiy sho‘rosining O‘zbeklarni o‘rganish komiteti huzuridagi Etnografiya, folklor va arxeologiya bo‘yicha ilmiy-tekshirish kabinetidan boshlanadi. 1929-yilning dekabrida H.T.Zarifov mudir bo‘lgan bu kabinet yangidan tashkil etilgan O‘zbekiston davlat ilmiy-tekshirish instituti ixtiyoriga mustaqil (alohida) tuzilma sifatida beriladi (1929-1931).",
     "card": {
       "turdimov": {
         "name": "ТУРДИМОВ ШОМИРЗА ҒАНИЕВИЧ",
@@ -115,12 +115,12 @@
     "main": {
       "title": "Bosh sahifa",
       "personnel": "Xodimlar",
-      "facultets": "Fakultetlar"
+      "facultets": "Folklor janrlari"
     },
     "about": {
       "title": "Biz haqimizda",
       "section": "Folklor bo’lim",
-      "facultet_about": "Fakultetlar haqida"
+      "facultet_about": "Folklor janrlari haqida"
     },
     "council": {
       "title": "Ixtisoslashgan kengash",

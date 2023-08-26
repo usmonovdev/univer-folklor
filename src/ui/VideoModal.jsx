@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import { LiaTimesSolid } from "react-icons/lia";
 
 const VideoModal = ({ open, setOpen }) => {
+  const video_url = "https://youtu.be/SIqa5DVp1fk?si=n7GwiZB0UhaZZMeZ"
   return (
     <div
       className={`${
@@ -15,7 +16,7 @@ const VideoModal = ({ open, setOpen }) => {
             <LiaTimesSolid className="text-white text-2xl cursor-pointer mb-3" onClick={() => setOpen(!open)}/>
           </div>
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=jme5LrdWTpk"
+            url={video_url}
             playing={open}
           />
         </div>

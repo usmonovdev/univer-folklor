@@ -2,8 +2,7 @@ import React from "react";
 import logo from "../images/logo.png";
 import { useTranslation } from "react-i18next";
 import { ChangeLang } from "../ui";
-import facebook from "./../images/facebook.svg";
-import twitter from "./../images/twitter.svg";
+import { BiUser } from "react-icons/bi";
 import prime from "./../images/prime.png";
 
 const Footer = () => {
@@ -52,6 +51,10 @@ const Footer = () => {
             </ul>
           </li>
         </ul>
+        <div className="flex flex-row items-center gap-3">
+          <BiUser className="text-2xl text-[#fff]"/>
+          <p className="text-[#fff] text-[20px]">Shaxodatbonu Imomnazarova</p>
+        </div>
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-row gap-3 items-center">
             <ChangeLang />
