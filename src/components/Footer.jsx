@@ -2,11 +2,11 @@ import React from "react";
 import logo from "../images/logo.png";
 import { useTranslation } from "react-i18next";
 import { ChangeLang } from "../ui";
-import { BiUser } from "react-icons/bi";
+import { BiUser, BiLogoTelegram } from "react-icons/bi";
 import prime from "./../images/prime.png";
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   return (
     <div className="relative lg:top-0 top-[100px] py-4 bg-blue">
       <div className="custom-container flex flex-col gap-8">
@@ -51,9 +51,29 @@ const Footer = () => {
             </ul>
           </li>
         </ul>
-        <div className="flex flex-row items-center gap-3">
-          <BiUser className="text-2xl text-[#fff]"/>
-          <p className="text-[#fff] text-[20px]">Shaxodatbonu Imomnazarova</p>
+        <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-row items-center gap-1">
+            <BiUser className="text-2xl text-[#fff]" />
+            <a
+              href="https://t.me/folklorim"
+              className="text-[#fff] text-[20px]"
+            >
+              {i18n.language == "uz" ? (
+                <>Shaxodatbonu Imomnazarova</>
+              ) : (
+                <>Шаҳодатбону Имомназарова</>
+              )}
+            </a>
+          </div>
+          <div className="flex flex-row items-center gap-1">
+            <BiLogoTelegram className="text-2xl text-[#fff]" />
+            <a
+              href="https://t.me/folklorim"
+              className="text-[#fff] text-[20px]"
+            >
+              {i18n.language == "uz" ? <>Telegram</> : <>Телеграм</>}
+            </a>
+          </div>
         </div>
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-row gap-3 items-center">

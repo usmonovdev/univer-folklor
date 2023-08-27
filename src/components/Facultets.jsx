@@ -25,12 +25,12 @@ const Facultets = () => {
             {facultetsData.map((data) => {
               return (
                 <SwiperSlide key={data.id}>
-                  <div className="mb-[70px]">
+                  <div className="mb-[70px] bg-gray-100 flex flex-col items-center">
                     <img
                       src={data.photo}
-                      className="rounded-lg rounded-b-none"
+                      className="rounded-lg rounded-b-none py-3"
                     />
-                    <div className="min-h-[130px] bg-gray-100 rounded-lg rounded-t-none">
+                    <div className="min-h-[130px] rounded-lg rounded-t-none">
                       <h1 className="font-semibold sm:text-[32px] text-[20px] text-[#000339] px-4">
                         {t(data.title)}
                       </h1>

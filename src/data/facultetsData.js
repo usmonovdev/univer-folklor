@@ -1,12 +1,11 @@
 import photo1 from "../images/board1.png"
-import photo2 from "../images/board2.jpg"
-import photo3 from "../images/board3.jpg"
-import photo4 from "../images/board4.jpg"
-import photo5 from "../images/board5.jpg"
-import photo6 from "../images/board6.jpg"
-import photo7 from "../images/board7.jpg"
-import photo8 from "../images/board8.jpg"
-import photo9 from "../images/board9.jpg"
+import photo2 from "../images/janr2.png"
+import photo3 from "../images/janr3.png"
+import photo5 from "../images/janr4.png"
+import photo6 from "../images/janr6.png"
+import photo7 from "../images/janr7.png"
+import photo8 from "../images/janr8.png"
+import photo9 from "../images/janr9.png"
 import photo10 from "../images/board1.png"
 
 export const facultetsData = [
@@ -27,12 +26,6 @@ export const facultetsData = [
         photo: photo3,
         title: "facultets.card.three.title",
         desc: "facultets.card.three.desc"
-    },
-    {
-        id: 4,
-        photo: photo4,
-        title: "facultets.card.four.title",
-        desc: "facultets.card.four.desc"
     },
     {
         id: 5,

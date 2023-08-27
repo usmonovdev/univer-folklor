@@ -77,10 +77,6 @@
         "title": "Lof",
         "desc": "Lof – xalq og'zaki poetik ijodining hajviy-yumoristik janrlaridan biri. Lofbozlik, lofchilik, lof (urish) aytish deb ham yuritiladi. Mubolag'aga asoslanadi, maqsadi – kishilarda kulgi uyg'otish, shuningdek, u yoki bu hodisaga diqqatni jalb etish, tanqidiy munosabat bildirish."
       },
-      "four": {
-        "title": "Afsona",
-        "desc": "Afsona – xalq og'zaki ijodi (folklor) janri. U xayolot, uydirma va to'qimadan iborat bo'lsa-da, so'zlovchi va tinglovchi tomonidan haqiqatdek tasavvur etiladi, hatto bo'lib o'tgan davri, makon ham ko'rsatiladi. Afsonalar og'izdan-og'izga, eldan-elga o'tib kelgan, ifoda usuli bayon tarzida"
-      },
       "five": {
         "title": "Rivoyat",
         "desc": "Rivoyat – voqea va hodisalarni, inson faoliyatini ba'zan uydirmalar vositasida, ba'zan Real tasvirlovchi og'zaki hikoya; folklor janri. Hajmi qisqa, ikki yoki uch epizoddan tashkil topadi, an'anaviy uslubiy shaklga ega bo'lmaydi. Odatda, oddiy bir hikoyachi bayonidan boshlanib, og'izdan-og'izga o'tish jarayonida erkin talkin qilinadi."
@@ -102,7 +98,7 @@
         "desc": "Ertak – xalq og'zaki poetik ijodining asosiy janrlaridan biri; to'qima va uydirmaga asoslangan sehrli-sarguzasht va maishiy xarakterdagi epik badiiy asar. Asosan, Nasr shaklida yaratilgan. M.Koshg'ariyning 'Devonu lug'otit turk' asarida etuk shaklida uchraydi va biror voqeani og'zaki tarzda hikoya qilish ma'nosini bildiradi."
       },
       "ten": {
-        "title": "Topishmoq, topmacha, jumboq, matal",
+        "title": "Doston",
         "desc": "Doston – liro-epik janr. shu janrdagi badiiy epik asar. 'Doston' so'zi fors tilidan olingan bo'lib, qissa, hikoya, sarguzasht, ta'rif va maqtov ma'nolarini ifodalaydi. O'zbek xalq og'zaki ijodi va o'zbek mumtoz adabiyotida keng tarqalgan. Dostonda muayyan voqea liro-epik tasvir vositalari yordamida hikoya qilinadi."
       }
     }
